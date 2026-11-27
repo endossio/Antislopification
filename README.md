@@ -11,7 +11,15 @@ This is what usually happens (visualised below):
 
 The useful part is in there somewhere, but it takes far longer than it should to get to it, and filtering through all of it to find it is mentally draining.
 
-![A document made with AI, the recipient's AI summarises and edits it, the sender's AI summarises the edits, and so on](assets/the-loop.svg)
+```mermaid
+flowchart LR
+    A["Made with AI<br/>longer than it needs to be"] --> B["Recipient's AI<br/>summarises and edits it"]
+    B --> C["Sender's AI<br/>summarises the edits"]
+    C -- and so on --> B
+    classDef default fill:#F1F4F3,stroke:#F1F4F3,color:#0B1A14
+```
+
+![What gets sent, with the useful part as a small slice of it](assets/useful-part.svg)
 
 AI should be used to accelerate work, without a doubt, but only after careful consideration of its output. It should be 90% planning (a conversation between people and AI) before any document is created. AI is fantastic at completing something to a goal you define. If you don't ask yourself what the outcome of the work should be, AI will connect the dots for you, and that's where unknowns, verbosity and plain wasted time creep in, even with frontier models.
 
@@ -31,7 +39,17 @@ Step by step (visualised below):
 - The reviewer reads what they've been pointed to. If it's approved, they fill in page 2: their response and an answer to each question, which carry over from page 1. If it's rejected, they fill in page 3 with why.
 - If it's rejected, it goes back to the sender.
 
-![Plan, AI writes to the plan, the sender reviews it and fills in page 1, the reviewer reads what's flagged, the reviewer approves or rejects it](assets/the-handoff.svg)
+```mermaid
+flowchart LR
+    P["Plan<br/>work out the outcome"] --> W["AI writes<br/>to the plan"]
+    W --> S["Sender reviews<br/>fills in page 1, signs it"]
+    S --> R["Reviewer<br/>reads what's flagged"]
+    R -- approved --> A["Page 2<br/>response and answers"]
+    R -- rejected --> S
+    classDef default fill:#F1F4F3,stroke:#F1F4F3,color:#0B1A14
+    classDef key fill:#FFFFFF,stroke:#0B1A14,stroke-width:2px,color:#0B1A14
+    class S key
+```
 
 ## Rules
 
