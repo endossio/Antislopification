@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" font-family="Geist, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#0B1A14"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="799" height="239" rx="12" fill="#FFFFFF" stroke="#DBE0DF"/>
+
+  <rect x="28" y="32" width="134" height="84" rx="8" fill="#F1F4F3"/>
+  <text x="95" y="64" text-anchor="middle" font-size="14" font-weight="600" fill="#0B1A14">Plan</text>
+  <text x="95" y="84" text-anchor="middle" font-size="11.5" fill="#4D5552">work out the</text>
+  <text x="95" y="99" text-anchor="middle" font-size="11.5" fill="#4D5552">outcome</text>
+
+  <rect x="180" y="32" width="134" height="84" rx="8" fill="#F1F4F3"/>
+  <text x="247" y="64" text-anchor="middle" font-size="14" font-weight="600" fill="#0B1A14">AI writes</text>
+  <text x="247" y="84" text-anchor="middle" font-size="11.5" fill="#4D5552">to the plan</text>
+  <text x="247" y="99" text-anchor="middle" font-size="11.5" fill="#4D5552"></text>
+
+  <rect x="333" y="33" width="132" height="82" rx="8" fill="#FFFFFF" stroke="#0B1A14" stroke-width="2"/>
+  <text x="399" y="64" text-anchor="middle" font-size="14" font-weight="600" fill="#0B1A14">Sender reviews</text>
+  <text x="399" y="84" text-anchor="middle" font-size="11.5" fill="#0B1A14">fills in page 1,</text>
+  <text x="399" y="99" text-anchor="middle" font-size="11.5" fill="#0B1A14">signs it</text>
+
+  <rect x="484" y="32" width="134" height="84" rx="8" fill="#F1F4F3"/>
+  <text x="551" y="64" text-anchor="middle" font-size="14" font-weight="600" fill="#0B1A14">Reviewer</text>
+  <text x="551" y="84" text-anchor="middle" font-size="11.5" fill="#4D5552">reads what's</text>
+  <text x="551" y="99" text-anchor="middle" font-size="11.5" fill="#4D5552">flagged</text>
+
+  <rect x="636" y="32" width="136" height="84" rx="8" fill="#F1F4F3"/>
+  <text x="704" y="64" text-anchor="middle" font-size="14" font-weight="600" fill="#0B1A14">Response</text>
+  <text x="704" y="84" text-anchor="middle" font-size="11.5" fill="#4D5552">approved or</text>
+  <text x="704" y="99" text-anchor="middle" font-size="11.5" fill="#4D5552">rejected</text>
+
+  <line x1="162" y1="74" x2="177" y2="74" stroke="#0B1A14" stroke-width="1.5" marker-end="url(#b)"/>
+  <line x1="314" y1="74" x2="330" y2="74" stroke="#0B1A14" stroke-width="1.5" marker-end="url(#b)"/>
+  <line x1="466" y1="74" x2="481" y2="74" stroke="#0B1A14" stroke-width="1.5" marker-end="url(#b)"/>
+  <line x1="618" y1="74" x2="633" y2="74" stroke="#0B1A14" stroke-width="1.5" marker-end="url(#b)"/>
+  <path d="M704 116 C704 156, 399 156, 399 120" fill="none" stroke="#BFC6C3" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#b)"/>
+  <text x="552" y="164" text-anchor="middle" font-size="12" fill="#4D5552">rejected: back to the sender</text>
+
+  <text x="28" y="196" font-size="12" fill="#4D5552">What the reviewer reads</text>
+  <rect x="28" y="206" width="62" height="18" rx="4" fill="#0B1A14"/>
+  <text x="102" y="220" font-size="12" font-weight="600" fill="#0B1A14">the useful part, plus three questions</text>
+</svg>

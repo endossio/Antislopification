@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 216" width="400" height="216" font-family="Geist, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+  <rect x="0.5" y="0.5" width="399" height="215" rx="12" fill="#FFFFFF" stroke="#DBE0DF"/>
+  <g transform="translate(0,-29)">
+
+  <g fill="#2C2C2A">
+    <text x="28" y="66"><tspan fill="#A32D2D">In today's fast-moving market,</tspan> pricing <tspan fill="#A32D2D">isn't just</tspan></text>
+    <text x="28" y="86"><tspan fill="#A32D2D">a number — it's a strategic lever.</tspan> <tspan fill="#A32D2D">Leveraging</tspan></text>
+    <text x="28" y="106">a <tspan fill="#A32D2D">robust, seamless</tspan> approach is <tspan font-weight="700" fill="#A32D2D">crucial</tspan> to</text>
+    <text x="28" y="126"><tspan fill="#A32D2D">unlocking value.</tspan> We explored three options</text>
+    <text x="28" y="146">— flat fee, percentage and hybrid — each with</text>
+    <text x="28" y="166"><tspan fill="#A32D2D">its own benefits, risks and trade-offs.</tspan></text>
+    <text x="28" y="196"><tspan fill="#A32D2D">In summary,</tspan> pricing is a key decision that</text>
+    <text x="28" y="216">requires careful consideration.</text>
+  </g>
+  </g>
+</svg>
